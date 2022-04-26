@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot%20(15).png)
+![](./images/Screenshot%20(16).png)
  
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-order-summary-card-made-by-css-flexbox-r12zEpSBc)
+- Live Site URL: [Add live site URL here](https://order-summary-project-fem.netlify.app/)
 
 ## My process
 

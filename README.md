@@ -31,8 +31,8 @@ Users should be able to:
  
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/responsive-order-summary-card-made-by-css-flexbox-r12zEpSBc)
-- Live Site URL: [Add live site URL here](https://order-summary-project-fem.netlify.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/responsive-order-summary-card-made-by-css-flexbox-r12zEpSBc]
+- Live Site URL: [https://order-summary-project-fem.netlify.app/]
 
 ## My process
 

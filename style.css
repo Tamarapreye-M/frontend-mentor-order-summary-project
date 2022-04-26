@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+	
+}
+main{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+}
+.card {
+	width: 350px;
+	/* height: 500px; */
+	background-color: white;
+	border-radius: 15px;
+    box-shadow: -2px 6px 14px 3px #bfc4e9;
+}
+
+.card img {
+	width: 100%;
+	border-radius: 15px 15px 0 0;
+}
+.card .card-body {
+	padding: 30px;
+	text-align: center;
+	/* display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column; */
+}
+.card .card-body h1{
+color: hsl(223, 47%, 23%);
+font-weight: 900;
+}
+.card .header-text {
+	font-size: 24px;
+	font-weight: 700;
+}
+.card .details {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.3rem;
+	color: hsl(224, 23%, 55%);
+	margin: 17px 0;
+}
+.card .music-icon {
+	height: 40px;
+	width: 40px;
+	margin-right: 12px;
+}
+.card .description{
+    line-height: 1.3rem;
+}
+.card .pricing {
+	background-color: hsl(225, 100%, 98%);
+	border-radius: 8px;
+	padding: 17px 14px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.card .pricing .left {
+	display: flex;
+	align-items: center;
+}
+.card .pricing-year {
+	font-weight: 700;
+	column-gap: 10px;
+    font-size: 14px;
+	/* font-stretch: extra-condensed; */
+    color: hsl(223, 47%, 23%);
+}
+.card .pricing a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+.card .pricing a:hover{
+    text-decoration: none;
+    opacity: 0.7;
+}
+.card .price {
+	font-size: 13px;
+    text-align: left;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+
+}
+.card .btn-cta {
+	background-color: #382ae1;
+	cursor: pointer;
+	color: white;
+	font-weight: 700;
+	padding: 15px;
+	font-size: 12px;
+	margin: 30px 0;
+	border-radius: 10px;
+	box-shadow: -2px 6px 14px 3px #bfc4e9;
+}
+.card .btn-cta:hover{
+    opacity: 0.7;
+}
+.cancel {
+	font-size: 0.8rem;
+	font-weight: 900;
+	font-stretch: extra-expanded;
+	color: gray;
+	cursor: pointer;
+}
